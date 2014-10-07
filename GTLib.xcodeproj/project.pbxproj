@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C38FE9F119E2FDCA0060D56B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE9F019E2FDCA0060D56B /* main.swift */; };
+		C38FE9FA19E308780060D56B /* Enumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE9F919E308780060D56B /* Enumerator.swift */; };
+		C38FE9FB19E30A160060D56B /* Procedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE9F719E2FF520060D56B /* Procedure.swift */; };
+		C38FE9FD19E311B20060D56B /* Summation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE9FC19E311B20060D56B /* Summation.swift */; };
+		C38FEA0119E3167A0060D56B /* MyEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FEA0019E3167A0060D56B /* MyEnumerator.swift */; };
+		C38FEA0319E31ABA0060D56B /* MySummation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FEA0219E31ABA0060D56B /* MySummation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		C38FE9ED19E2FDCA0060D56B /* GTLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GTLib; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38FE9F019E2FDCA0060D56B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C38FE9F719E2FF520060D56B /* Procedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Procedure.swift; sourceTree = "<group>"; };
+		C38FE9F919E308780060D56B /* Enumerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumerator.swift; sourceTree = "<group>"; };
+		C38FE9FC19E311B20060D56B /* Summation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summation.swift; sourceTree = "<group>"; };
+		C38FEA0019E3167A0060D56B /* MyEnumerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEnumerator.swift; sourceTree = "<group>"; };
+		C38FEA0219E31ABA0060D56B /* MySummation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySummation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				C38FE9F019E2FDCA0060D56B /* main.swift */,
+				C38FE9F719E2FF520060D56B /* Procedure.swift */,
+				C38FE9F919E308780060D56B /* Enumerator.swift */,
+				C38FE9FC19E311B20060D56B /* Summation.swift */,
+				C38FEA0019E3167A0060D56B /* MyEnumerator.swift */,
+				C38FEA0219E31ABA0060D56B /* MySummation.swift */,
 			);
 			path = GTLib;
 			sourceTree = "<group>";
@@ -119,6 +134,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38FE9F119E2FDCA0060D56B /* main.swift in Sources */,
+				C38FE9FB19E30A160060D56B /* Procedure.swift in Sources */,
+				C38FE9FA19E308780060D56B /* Enumerator.swift in Sources */,
+				C38FEA0319E31ABA0060D56B /* MySummation.swift in Sources */,
+				C38FE9FD19E311B20060D56B /* Summation.swift in Sources */,
+				C38FEA0119E3167A0060D56B /* MyEnumerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +253,7 @@
 				C38FE9F619E2FDCA0060D56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

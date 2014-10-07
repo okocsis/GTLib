@@ -8,5 +8,14 @@
 
 import Foundation
 
-println("Hello, World!")
+var myenum : MyEnumerator = MyEnumerator();
+var mysumm : MySummation<Int,Int> = MySummation<Int,Int>();
+
+mysumm.addEnumerator(myenum);
+
+//println("\((mysumm.enor.array)");
+
+mysumm.run();
+
+println("res: \(mysumm.result())");
 
