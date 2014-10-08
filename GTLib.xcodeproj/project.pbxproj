@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3093DBE19E5692500161ABE /* LinSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3093DBD19E5692500161ABE /* LinSearch.swift */; };
+		C3093DC019E56D4500161ABE /* MyLinSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3093DBF19E56D4500161ABE /* MyLinSearch.swift */; };
+		C37E673D19E575E600449587 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E673C19E575E600449587 /* Selection.swift */; };
+		C37E673F19E576AB00449587 /* MySelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E673E19E576AB00449587 /* MySelection.swift */; };
+		C37E674119E5807400449587 /* MaxSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E674019E5807400449587 /* MaxSearch.swift */; };
+		C37E674319E586E800449587 /* MyMaxSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E674219E586E800449587 /* MyMaxSearch.swift */; };
 		C38FE9F119E2FDCA0060D56B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE9F019E2FDCA0060D56B /* main.swift */; };
 		C38FE9FA19E308780060D56B /* Enumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE9F919E308780060D56B /* Enumerator.swift */; };
 		C38FE9FB19E30A160060D56B /* Procedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE9F719E2FF520060D56B /* Procedure.swift */; };
 		C38FE9FD19E311B20060D56B /* Summation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FE9FC19E311B20060D56B /* Summation.swift */; };
 		C38FEA0119E3167A0060D56B /* MyEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FEA0019E3167A0060D56B /* MyEnumerator.swift */; };
 		C38FEA0319E31ABA0060D56B /* MySummation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38FEA0219E31ABA0060D56B /* MySummation.swift */; };
+		C3C8B8F519E566B900A9F52D /* Counting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8B8F419E566B900A9F52D /* Counting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +35,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3093DBD19E5692500161ABE /* LinSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinSearch.swift; sourceTree = "<group>"; };
+		C3093DBF19E56D4500161ABE /* MyLinSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLinSearch.swift; sourceTree = "<group>"; };
+		C37E673C19E575E600449587 /* Selection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
+		C37E673E19E576AB00449587 /* MySelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySelection.swift; sourceTree = "<group>"; };
+		C37E674019E5807400449587 /* MaxSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxSearch.swift; sourceTree = "<group>"; };
+		C37E674219E586E800449587 /* MyMaxSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMaxSearch.swift; sourceTree = "<group>"; };
 		C38FE9ED19E2FDCA0060D56B /* GTLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GTLib; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38FE9F019E2FDCA0060D56B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C38FE9F719E2FF520060D56B /* Procedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Procedure.swift; sourceTree = "<group>"; };
@@ -35,6 +48,7 @@
 		C38FE9FC19E311B20060D56B /* Summation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summation.swift; sourceTree = "<group>"; };
 		C38FEA0019E3167A0060D56B /* MyEnumerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEnumerator.swift; sourceTree = "<group>"; };
 		C38FEA0219E31ABA0060D56B /* MySummation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySummation.swift; sourceTree = "<group>"; };
+		C3C8B8F419E566B900A9F52D /* Counting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +62,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C37E673B19E574C700449587 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C3093DBF19E56D4500161ABE /* MyLinSearch.swift */,
+				C38FEA0219E31ABA0060D56B /* MySummation.swift */,
+				C38FEA0019E3167A0060D56B /* MyEnumerator.swift */,
+				C37E673E19E576AB00449587 /* MySelection.swift */,
+				C37E674219E586E800449587 /* MyMaxSearch.swift */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
 		C38FE9E419E2FDCA0060D56B = {
 			isa = PBXGroup;
 			children = (
@@ -67,12 +93,15 @@
 		C38FE9EF19E2FDCA0060D56B /* GTLib */ = {
 			isa = PBXGroup;
 			children = (
+				C37E673B19E574C700449587 /* Test */,
 				C38FE9F019E2FDCA0060D56B /* main.swift */,
 				C38FE9F719E2FF520060D56B /* Procedure.swift */,
 				C38FE9F919E308780060D56B /* Enumerator.swift */,
 				C38FE9FC19E311B20060D56B /* Summation.swift */,
-				C38FEA0019E3167A0060D56B /* MyEnumerator.swift */,
-				C38FEA0219E31ABA0060D56B /* MySummation.swift */,
+				C3C8B8F419E566B900A9F52D /* Counting.swift */,
+				C3093DBD19E5692500161ABE /* LinSearch.swift */,
+				C37E673C19E575E600449587 /* Selection.swift */,
+				C37E674019E5807400449587 /* MaxSearch.swift */,
 			);
 			path = GTLib;
 			sourceTree = "<group>";
@@ -134,11 +163,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C38FE9F119E2FDCA0060D56B /* main.swift in Sources */,
+				C3C8B8F519E566B900A9F52D /* Counting.swift in Sources */,
+				C37E674119E5807400449587 /* MaxSearch.swift in Sources */,
 				C38FE9FB19E30A160060D56B /* Procedure.swift in Sources */,
+				C3093DBE19E5692500161ABE /* LinSearch.swift in Sources */,
 				C38FE9FA19E308780060D56B /* Enumerator.swift in Sources */,
 				C38FEA0319E31ABA0060D56B /* MySummation.swift in Sources */,
+				C37E673D19E575E600449587 /* Selection.swift in Sources */,
+				C3093DC019E56D4500161ABE /* MyLinSearch.swift in Sources */,
+				C37E673F19E576AB00449587 /* MySelection.swift in Sources */,
 				C38FE9FD19E311B20060D56B /* Summation.swift in Sources */,
 				C38FEA0119E3167A0060D56B /* MyEnumerator.swift in Sources */,
+				C37E674319E586E800449587 /* MyMaxSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
