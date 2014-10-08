@@ -3,4 +3,8 @@
 
 *.xcscheme
 
-*.plist
+GTLib.xcodeproj/xcuserdata/okocsis.xcuserdatad/xcschemes/xcschememanagement.plist
+
+GTLib.xcodeproj/project.xcworkspace/xcuserdata/okocsis.xcuserdatad/UserInterfaceState.xcuserstate
+
+GTLib.xcodeproj/project.xcworkspace/xcshareddata/GTLib.xccheckout
