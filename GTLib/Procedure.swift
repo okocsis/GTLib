@@ -1,40 +1,42 @@
 
 
-class Procedure<Item> {
+class Procedure {
     
-    typealias Item = Item;
+    var enor: Enumerator?
     
-    var enor: Enumerator?;
+    init() {}
     
-    init() {
+    func _init() {
+        assert(false, "Must be overridden!")
     }
-    
-    func _init() {}
     
     func first() {
         enor!.first();
     }
     
-    func _do(current : Item?) {}
-    
-    func loopCond() -> Bool {
-        return enor!.end() && whileCond(enor!.current());
+    func _do(current : Any?) {
+        assert(false, "Must be overridden!")
     }
     
-    func whileCond(item: Item?) -> Item {
-        return true;
+    func loopCond() -> Bool {
+        return enor!.end() && whileCond(enor!.current())
+    }
+    
+    func whileCond(item: Any?) -> Bool {
+        return true
     }
     
     func addEnumerator(en: Enumerator) {
-        enor = en;
+        enor = en
     }
     
     func run() {
-        if(enor != nil) {
-            _init();
-            for(first(); loopCond(); enor!.next()) {
-                _do(enor!.current());
-            }
+        if(enor == nil) {
+            assert(false, "Missing enumerator!")
+        }
+        _init()
+        for(first(); loopCond(); enor!.next()) {
+            _do(enor!.current())
         }
     }
     

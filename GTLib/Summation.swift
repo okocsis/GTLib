@@ -1,26 +1,28 @@
 
-class Summation : Procedure {
+class Summation: Procedure {
     
-    var _result : AnyObject?;
+    var _result : Any?
     
     override init() {}
     
     override func _init() {}
     
-    override func _do(item: AnyObject?) {
+    override func _do(item: Any?) {
         if(cond(item)) {
-            add(item);
+            add(item)
         }
     }
     
-    func add(item: AnyObject?) {}
-    
-    func cond(item: AnyObject?) -> Bool {
-        return true;
+    func add(item: Any?) {
+        assert(false, "Must be overridden!")
     }
     
-    func result() -> AnyObject? {
-        return _result;
+    func cond(item: Any?) -> Bool {
+        return true
+    }
+    
+    func result() -> Any? {
+        return _result
     }
     
 }

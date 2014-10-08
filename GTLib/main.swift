@@ -1,21 +1,30 @@
-//
-//  main.swift
-//  GTLib
-//
-//  Created by Kocsis Olivér on 06/10/14.
-//  Copyright (c) 2014 artit. All rights reserved.
-//
+var myEnum = MyEnumerator(),
+    mySumm = MySummation(),
+    count = Counting(),
+    myLinS = MyLinSearch(),
+    mySelect = MySelection(),
+    myMaxS = MyMaxSearch()
 
-import Foundation
+mySumm.addEnumerator(myEnum)
+count.addEnumerator(myEnum)
+myLinS.addEnumerator(myEnum)
+mySelect.addEnumerator(myEnum)
+myMaxS.addEnumerator(myEnum)
 
-var myenum : MyEnumerator = MyEnumerator();
-var mysumm : MySummation<Int,Int> = MySummation<Int,Int>();
+mySumm.run()
 
-mysumm.addEnumerator(myenum);
+count.run()
 
-//println("\((mysumm.enor.array)");
+myLinS.run()
 
-mysumm.run();
+myMaxS.run()
 
-println("res: \(mysumm.result())");
+/** WARN: mySelect._elem() holds the CURRENT value of enumerator **/
+mySelect.run()
 
+println("array: \(myEnum.array)")
+println("mySumm: \(mySumm.result())")
+println("count: \(count.result())")
+println("myLinS: found? \(myLinS.found()) \(myLinS._elem())")
+println("mySelect: \(mySelect._elem())")
+println("myMaxS: found? \(myMaxS.found()) \(myMaxS._opt()) \(myMaxS.optElem())")

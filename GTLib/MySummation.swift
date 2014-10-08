@@ -1,20 +1,20 @@
-import Foundation
-
-class MySummation<Dummy1,Dummy2>: Summation<Int,Int> {
+class MySummation: Summation {
     
     override func _init() {
-        _result = 0;
+        _result = 0
     }
     
-    override func add(item: Int?) {
-        _result! += item!;
+    override func add(item: Any?) {
+        let res = (_result as Int) + (item as Int)
+        _result = res
     }
     
-    override func cond(item: Int?) -> Bool {
-        return true;
+    override func cond(item: Any?) -> Bool {
+        return true
     }
     
-    override func result() -> Int? {
-        return _result;
+    override func result() -> Any? {
+        return _result
     }
+    
 }
