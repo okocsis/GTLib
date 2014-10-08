@@ -1,5 +1,3 @@
-
-
 protocol Enumerator {
     func first()
     func next()
